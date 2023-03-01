@@ -1,13 +1,12 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
+	font-family: 'Montserrat', sans-serif;
+	color: #36454F;
 	background-color: #f8f8fc;
 }
 
@@ -19,10 +18,11 @@ body {
 
 .resume-main {
 	background-color: #fffefc;
+	
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #E9D2D2;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +48,16 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.my-language-dutch-style {
+	font-style: italic
+}
+
+.my-language-english-style {
+	font-style: italic
+}
+
+.my-language-french-style {
+	font-style: italic
 }
